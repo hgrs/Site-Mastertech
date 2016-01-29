@@ -122,7 +122,10 @@
          <div class="row col-md-offset-2">
             <div class="col-md-5" style="margin-bottom:10%;">
                <h1>Formas de pagamento</h1>
-               <div>
+
+<!-- Aqui vai os botoes de pagamento -->
+<div class="row">
+             <div class="col-md">
                   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_xclick">
 <input type="hidden" name="business" value="gutoca77@gmail.com">
@@ -135,10 +138,14 @@
 <input type="hidden" name="no_note" value="0">
 <input type="hidden" name="bn" value="PP-BuyNowBF:botao-checkout_horizontal_ap.png:NonHostedGuest">
 <input type="image" src="http://www.uzzestore.com.br/images/bandeiras-paypal.png" border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
+<img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="4" height="4">
 </form>
+</div>
+<div>
+   <img src="img/logo-pagseguro-jpg.png" height="40px">
+</div>
+</div>
 
-               </div>
                <div class="btn bt1 btn-primary" id="pagamento">Cadastrar</div>
             </div>
         </div>
@@ -239,13 +246,13 @@
          $(".bar").css({
          "display":"block",
          });
-         $(".bar2").animate({width: '50%'},"slow");
+         $(".bar2").animate({width: '50%'});
          });
 
           $("#pagamento").click(function(){
               $(".formulario3").css({
          "position":"absolute"});
-          $(".formulario3").animate({left: '100%'},"slow");
+          $(".formulario3").animate({left: '100%'});
             
          $(".formulario4").css({"display":"block"});
          $(".formulario4").animate({right: '0px'});
