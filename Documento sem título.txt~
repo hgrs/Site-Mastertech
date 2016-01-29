@@ -1,0 +1,10 @@
+-Vai na pasta cmd
+-Iniciar o git|| git init
+-git clone <link>
+-git add .
+-git commit -m "Mudei css"
+				-git set-origin <link>
+-git push master origin 
+
+
+
