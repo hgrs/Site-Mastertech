@@ -1,0 +1,26 @@
+.mini-map{
+
+	min-height: 400px;
+
+}
+.container{
+
+	padding-top: 120px;
+}
+.endereco{
+
+	font-size: 16px;
+}
+.infos h2{
+
+	margin-bottom: 50px;
+}
+.infos p{
+
+	font-size: 14px;
+}
+
+.info{
+
+	margin-bottom: 100px;
+}

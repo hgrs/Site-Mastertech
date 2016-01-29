@@ -1,0 +1,93 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (min-width: 800px) {
+    
+    .navbar-header img{
+        margin-left: 140%;
+        margin-top: -10%;
+    
+    }
+         .navbar-nav{
+            margin-left: 20%;
+        }
+/* acaba */
+
+
+
+header {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 65%;
+    width: 100%;
+}
+
+header h1{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    color: white;
+    width: 30%;
+    text-align: center;
+}
+
+
+
+/* acaba */
+
+    .type {
+        height: 35%;
+        width: 100%;
+    }
+
+
+    .oito-semanas {
+        height: 100%;
+        width: 33%;
+        background: #f2f2f2;
+        float: left;
+    }
+    
+    .experience {
+        height: 100%;
+        width: 33%;
+        background: #f9f9f9;
+        float: left;
+    }
+    
+    
+    .random {
+        height: 100%;
+        width: 33%;
+        background: #f2f2f2;
+        float: left;
+    }
+/* acaba */
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+

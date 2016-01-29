@@ -1,0 +1,568 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (min-width: 800px) {
+    
+    .navbar-header img{
+        margin-left: 140%;
+        margin-top: -10%;
+    
+    }
+         .navbar-nav{
+            margin-left: 20%;
+        }
+/* acaba */
+
+
+
+header {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+header h1{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: white;
+    width: 30%;
+    text-align: center;
+}
+
+
+
+/* acaba */
+
+#container {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    background: 
+}
+
+
+
+/* acaba */
+
+
+.metodologia {
+    width: 100%;
+    height: 60%;
+    background: white;
+}
+
+.metodologia h2 {
+    text-align: center;
+    padding-top: 6%;
+    font-size: 22pt;
+    margin: auto auto;
+}
+
+.metodologia p {
+    text-align: center;
+    padding-top: 4%;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 14pt;
+}
+
+/* acaba */
+
+.banner {
+    width: 100%;
+    height: 60%;
+    background-image: url(../img/people.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* acaba */
+
+
+.mt-original {
+    width: 100%;
+    height: 60%;
+    background: #f2f2f2;
+}
+
+.text {
+    width: 40%;
+    height: auto;
+    float: left;
+}
+
+.text h3{
+    padding-top: 20%;
+    padding-left: 10%;
+    width: 30%;
+    font-size: 25pt;
+}
+
+.text p{
+    width: 65%;
+    padding-top: 2%;
+    padding-left: 10%;
+}
+
+.boxes {
+    width: 60%;
+    height: 100%;;
+    float: right;
+}
+
+.boxes .container-box {
+    margin-top: 5%;
+}
+
+.boxes .box {
+    background: yellow;
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    box-shadow: 5px 5px 0px #c7c50e;
+}
+
+.boxes .box p{
+    padding-top: 20%;
+    text-align: center;
+    font-size: 13pt;
+}
+
+
+/* acaba */
+
+
+.turmas {
+    width: 100%;
+    height: 60%;
+    background: white;
+}
+
+.turmas h2{
+    padding-top: 5%;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 6%;
+    padding-left: 4%;
+}
+ 
+.list li{
+    border-bottom: 1px solid #ccc;
+    height: 40px;
+    padding-top: 10px;
+    width: 95%;
+    padding-left: 10px;
+    
+}
+
+.list li:hover{
+    background: #ccc;
+    color: red;
+    
+}
+
+ .lista span{
+   float: right;
+    padding-right: 10px;
+}
+
+.sessions {
+    width: 100%;
+    height: 60%;
+    background: #f2f2f2;
+}
+
+.sessions h2 {
+   padding-top: 10%;
+    padding-left: 4%;
+    width: 30%;
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+.sessions p{
+    width: 30%;
+    padding-top: 2%;
+    padding-left: 4%;
+    font-size: 13pt;
+}
+
+.lugares {
+    width: 100%;
+    height: 60%;
+    background: white;
+}
+
+.lugares select{
+   border: none;
+    border-bottom: 1px solid black;
+    font-size: 22pt;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-bottom: 5%;
+}
+
+footer {
+    height: 60%;
+    width: 100%;
+    background: #1a1a1a;
+}
+
+.footer-left{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.footer-left p{
+    margin-left: 8%;
+    width: 60%;
+    color: white;
+    margin-top: 15%;
+}
+
+.footer-left form{
+    margin-left: 8%;
+}
+
+.footer-left form p{
+    margin-left: -0.5%;
+    font-size: 10pt;
+}
+
+
+form input {
+    height: 40px;
+    width: 40%;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+}
+
+form input[type="submit"] {
+    background: #faf711;
+    width: 20%;
+}
+    
+.footer-right{
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+.empresa {
+    margin-top: 10%;
+    float: left;
+}
+
+.menu li{
+    width: 100%;
+    color: white;
+    border-top: 1px solid white;
+    padding: 5px;
+}
+
+.menu li.none{
+    border: none;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+    
+    .navbar-header img{
+        margin-left: 10%;
+        margin-top: -10%;
+    }
+/* acaba */
+
+
+
+header {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+header h1{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    color: white;
+    width: 80%;
+    text-align: center;
+}
+
+
+
+/* acaba */
+
+#container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    background: 
+}
+
+
+
+/* acaba */
+
+
+.metodologia {
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+
+.metodologia h2 {
+    text-align: center;
+    padding-top: 6%;
+    font-size: 22pt;
+    margin: auto auto;
+}
+
+.metodologia p {
+    text-align: center;
+    padding-top: 4%;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14pt;
+}
+
+/* acaba */
+
+.banner {
+    width: 100%;
+    height: 40%;
+    background-image: url(../img/people.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* acaba */
+
+
+.mt-original {
+    width: 100%;
+    height: 120%;
+    background: #f2f2f2;
+}
+
+.text {
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+
+.text h3{
+    padding-top: 10%;
+    width: 100%;
+    font-size: 25pt;
+}
+
+.text p{
+    width: 100%;
+    padding-top: 2%;
+}
+
+.boxes {
+    width: 100%;
+    height: 100%;;
+}
+
+.boxes .container-box {
+    margin-top: %;
+}
+
+.boxes .box {
+    background: yellow;
+    width: 40%;
+    height: 15%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    box-shadow: 5px 5px 0px #c7c50e;
+}
+
+.boxes .box p{
+    padding-top: 20%;
+    text-align: center;
+    font-size: 13pt;
+}
+
+
+/* acaba */
+
+
+.turmas {
+    width: 100%;
+    height: 60%;
+    background: white;
+}
+
+.turmas h2{
+    padding-top: 5%;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 6%;
+    text-align: center;
+}
+ 
+    .list {
+        width: 90%;
+        padding: 0;
+    }
+    
+.list li{
+    border-bottom: 1px solid #ccc;
+    height: 50px;
+    width: 100%;
+    padding-left: 10px;
+    
+}
+
+
+
+ .lista span{
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.sessions {
+    width: 100%;
+    height: 60%;
+    background: #f2f2f2;
+}
+
+.sessions h2 {
+   padding-top: 10%;
+    padding-left: 4%;
+    width: 30%;
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+.sessions p{
+    width: 80%;
+    padding-top: 2%;
+    padding-left: 4%;
+    font-size: 13pt;
+}
+
+.lugares {
+    width: 100%;
+    height: 60%;
+    background: white;
+}
+
+.lugares select{
+   border: none;
+    border-bottom: 1px solid black;
+    font-size: 22pt;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-bottom: 5%;
+}
+
+footer {
+    height: 150%;
+    width: 100%;
+    background: #1a1a1a;
+}
+
+.footer-left{
+    height: 30%;
+    width: 100%;
+    float: left;
+}
+
+.footer-left p{
+    margin-left: 8%;
+    width: 80%;
+    color: white;
+    margin-top: 15%;
+}
+
+.footer-left form{
+    margin-left: 8%;
+}
+
+.footer-left form p{
+    margin-left: -0.5%;
+    font-size: 10pt;
+}
+
+
+form input {
+    height: 40px;
+    width: 60%;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+}
+
+form input[type="submit"] {
+    background: #faf711;
+    width: 25%;
+}
+    
+.footer-right{
+    height: 100%;
+    width: 100%;
+}
+
+.empresa {
+    margin-top: 2%;
+    float: left;
+}
+
+.menu li{
+    width: 100%;
+    color: white;
+    border-top: 1px solid white;
+    padding: 5px;
+}
+
+.menu li.none{
+    border: none;
+}
+    
+}

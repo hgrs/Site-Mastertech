@@ -1,0 +1,218 @@
+<html>
+
+    <head>
+        
+        <title> MasterTech</title>
+        
+        <meta charset="utf-8">
+        
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
+        
+        <link rel="stylesheet" type="text/css" href="css/custom.css">
+        <link rel="stylesheet" type="text/css" href="css/localizacao.css">
+
+        <link href='img/icon.png' rel='icon' type='image/png' /> 
+
+
+        <style>
+          html, body { height: 100%; margin: 0; padding: 0; }
+          #map { height: 100%; }
+          #coords { background-color: black; color: white; padding: 5px; }
+        </style>
+        
+    </head>
+
+    <body>
+    
+              <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html"><img src="img/logo.png"> </a>
+                <!-- <a class="navbar-brand page-scroll" href="#page-top"><img src="/img/logo-mastertech."></a> -->
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar">
+                    <li>
+                        <a class="page-scroll" href="#about">Programa</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#programa">Sessões</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#calendario"><span style="color: yellow">Localizações</span></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#localizacao">Inscrições</a>
+                    </li>
+                  
+                   
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+        
+        <!-- acaba nav -->
+        
+    <div id="map"></div>
+    
+    <div class="container">
+      <div class="infos">
+        <div class="info col-md-12">
+          <div class="info-text col-sm-6">
+            <h2><strong>São Paulo</strong></h2>
+            <p>Vestibulum et sapien bibendum, ultrices arcu vitae, ultrices quam. Aenean ex libero, placerat ac ultrices eget, dictum quis ipsum. Sed tempus orci ac tellus tempor, ac faucibus leo feugiat. Nulla vestibulum enim a quam viverra lobortis. Aliquam interdum sapien a rhoncus mattis. Donec convallis sit amet lacus ac facilisis. Ut imperdiet sed lacus sed venenatis. Quisque et urna ullamcorper, placerat libero a, porta tellus. Sed consectetur et est ac commodo. Sed dictum justo non accumsan porta. Fusce feugiat ut orci non volutpat. Fusce malesuada pretium efficitur. Mauris rutrum dui risus, consequat cursus dui rhoncus in. Etiam pretium nunc quis nisi interdum, sit amet faucibus diam ultrices.
+            </br></br>
+            <span class="endereco">Rua Casa do Ator, 919 - Vila Olímpia</span>
+          </p>
+          </div>
+          <div class="mini-map col-sm-offset-1 col-sm-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.1636329800644!2d-46.68203328545058!3d-23.598463768847594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x862a31742765a371!2sCUBO!5e0!3m2!1spt-BR!2sbr!4v1453582507997" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="info col-md-12">
+          <div class="info-text col-sm-6">
+            <h2><strong>Florianópolis</strong></h2>
+            <p>Vestibulum et sapien bibendum, ultrices arcu vitae, ultrices quam. Aenean ex libero, placerat ac ultrices eget, dictum quis ipsum. Sed tempus orci ac tellus tempor, ac faucibus leo feugiat. Nulla vestibulum enim a quam viverra lobortis. Aliquam interdum sapien a rhoncus mattis. Donec convallis sit amet lacus ac facilisis. Ut imperdiet sed lacus sed venenatis. Quisque et urna ullamcorper, placerat libero a, porta tellus. Sed consectetur et est ac commodo. Sed dictum justo non accumsan porta. Fusce feugiat ut orci non volutpat. Fusce malesuada pretium efficitur. Mauris rutrum dui risus, consequat cursus dui rhoncus in. Etiam pretium nunc quis nisi interdum, sit amet faucibus diam ultrices.
+            </br></br>
+            <span class="endereco">Endereço do local, 101 - Bairro do local</span>
+          </p>
+          </div>
+          <div class="mini-map col-sm-offset-1 col-sm-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d452471.8536227849!2d-48.546424803096485!3d-27.6264876975812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527394eb2c632d7%3A0x81bc550b6a04c746!2sFlorian%C3%B3polis%2C+SC!5e0!3m2!1spt-BR!2sbr!4v1453582287913" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="info col-md-12">
+          <div class="info-text col-sm-6">
+            <h2><strong>Rio de Janeiro</strong></h2>
+            <p>Vestibulum et sapien bibendum, ultrices arcu vitae, ultrices quam. Aenean ex libero, placerat ac ultrices eget, dictum quis ipsum. Sed tempus orci ac tellus tempor, ac faucibus leo feugiat. Nulla vestibulum enim a quam viverra lobortis. Aliquam interdum sapien a rhoncus mattis. Donec convallis sit amet lacus ac facilisis. Ut imperdiet sed lacus sed venenatis. Quisque et urna ullamcorper, placerat libero a, porta tellus. Sed consectetur et est ac commodo. Sed dictum justo non accumsan porta. Fusce feugiat ut orci non volutpat. Fusce malesuada pretium efficitur. Mauris rutrum dui risus, consequat cursus dui rhoncus in. Etiam pretium nunc quis nisi interdum, sit amet faucibus diam ultrices.
+            </br></br>
+            <span class="endereco">Endereço do local, 101 - Bairro do local</span>
+          </p>
+          </div>
+          <div class="mini-map col-sm-offset-1 col-sm-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470410.46448401606!2d-43.728533698567205!3d-22.910355225176776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bde559108a05b%3A0x50dc426c672fd24e!2sRio+de+Janeiro%2C+RJ!5e0!3m2!1spt-BR!2sbr!4v1453582560171" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+
+
+      function initMap() {
+        //criando map
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 6,
+          center: {lat: -24.559, lng: -46.192},
+        });
+
+        // Add markers no map.
+        var iconmap = 'img/iconmap.png';
+
+        var florianopolis = {lat: -27.593, lng: -48.561};
+        var saoPaulo = {lat: -23.545, lng: -46.628}; 
+        var rioDeJaneiro = {lat: -22.910, lng: -43.171};
+
+        var marker = [
+        new google.maps.Marker({
+          position: florianopolis,
+          map: map,
+          icon: iconmap,
+          title: 'Mastertech em Florianópolis'
+        }),
+        new google.maps.Marker({
+          position: saoPaulo,
+          map: map,
+          icon: iconmap,
+          title: 'Mastertech em São Paulo'
+        }),
+        new google.maps.Marker({
+          position: rioDeJaneiro,
+          map: map,
+          icon: iconmap,
+          title: 'Mastertech no Rio De Janeiro!'
+        }),
+        ];
+      }
+
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAm-xqGpVB8vqVNAGTzhePRMwtDogSGScw&callback=initMap" ></script>
+            
+    <footer>
+    
+        <div id="container">
+        
+        <div class="footer-left">
+            
+            <p>MasterTech é uma forma de ensino inovadora que une experts de tecnologia em uma metodologia intensiva e imersiva.</p>
+            
+            <form>
+            
+                <p> Saiba sobre os proximos eventos</p>
+            <input type="email" name="email" placeholder="  Seu Email">
+                
+                <input type="submit" value="Assinar">
+            
+            </form>
+            </div>
+            <div class="footer-right">
+            
+                <div class="empresa">
+                    
+                    
+                <ul class="menu">
+                    <li class="none"><h2> Empresa</h2></li>
+                   <a href=""><li class="none">Sobre</li></a>
+                   <a href="localizacao.html"><li>Localizações</li></a>
+                   <a href=""><li>Carreiras</li></a>
+                   <a href=""><li>Contato</li></a>
+                   <a href="faq.html"><li>FAQ</li></a>
+                   <a href=""><li>Imprensa</li></a>
+                    
+                      </ul>
+                    
+                    </div>
+                
+                 <div class="empresa">
+                    
+                    
+                <ul class="menu">
+                    <li class="none"><h2> Comunidade</h2></li>
+                   <a href=""><li class="none">Programa Alumni</li></a>
+                   <a href=""><li>Embaixadores</li></a>
+                   <a href=""><li>Patrocinadores</li></a>
+                   <a href=""><li>Adote um aluno</li></a>
+                 
+                    
+                      </ul>
+                    
+                    </div>
+            </div>
+        
+        </div>
+    
+    </footer>
+        
+        <!-- -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    </body>
+
+
+</html>
