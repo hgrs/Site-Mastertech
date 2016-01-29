@@ -1,0 +1,27 @@
+body { overflow-x: hidden; }
+.itemform{
+background-color: #EFEFEF;
+padding: 10px;
+padding-right: 30%;
+margin-top: 5px;
+outline: none;
+border:none;
+}
+.for{
+	height: 407px;
+}
+.btn{
+border-radius:0px;
+
+}
+
+.bt1{
+
+	background-color: #231F20;
+	border-color: #231F20;
+}
+.bt1:hover{
+
+	background-color: #231F20;
+	border-color: #231F20;
+}
