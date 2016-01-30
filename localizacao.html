@@ -5,8 +5,12 @@
         <title> MasterTech</title>
         
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
         <link href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
         
         <link rel="stylesheet" type="text/css" href="css/custom.css">
@@ -14,18 +18,12 @@
 
         <link href='img/icon.png' rel='icon' type='image/png' /> 
 
-
-        <style>
-          html, body { height: 100%; margin: 0; padding: 0; }
-          #map { height: 100%; }
-          #coords { background-color: black; color: white; padding: 5px; }
-        </style>
         
     </head>
 
     <body>
     
-              <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-inverse">
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-inverse">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -46,10 +44,10 @@
                         <a class="page-scroll" href="#about">Programa</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#programa">Sessões</a>
+                        <a class="page-scroll" href="mtXP.html">Sessões</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#calendario"><span style="color: yellow">Localizações</span></a>
+                        <a class="page-scroll" href="localizacao.html"><span style="color: yellow">Localizações</span></a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#localizacao">Inscrições</a>
@@ -116,7 +114,7 @@
       function initMap() {
         //criando map
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 6,
+          zoom: 5,
           center: {lat: -24.559, lng: -46.192},
         });
 
