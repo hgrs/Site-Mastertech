@@ -49,7 +49,7 @@
       </nav>
       <!-- acaba nav -->
       <!-- acaba header -->
-      <div class="for" style="display:inline">
+      <div class="for">
       <div class="formulario" style="margin-top:10%;">
          <div class="row col-md-offset-2">
             <div class="col-md-5" style="border-right:1px solid black;margin-bottom:10%;">
@@ -70,7 +70,8 @@
          <div class="progress bar">
             <div class="progress-bar progress-bar-success bar2" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%"> </div>
          </div>
-         <div class="row col-md-offset-2">
+         <div class="row col-md-offset-2 ">
+         
             <div class="col-md-5" style="border-right:1px solid black;margin-bottom:10%;">
                <h1>Dados Adicionais</h1>
                <input  class="itemform" placeholder="Endereço"></input><br><br>
@@ -93,27 +94,27 @@
                <input type="radio" name="genero" value="female"> Não
                <input type="radio" name="genero" value="male"> Sim
                <input  class="itemform" placeholder="Qual?" style="display:none"></input><br><br>
-               <div class="btn bt1 btn-primary" id="continuar">Continuar</div>
+               <div class="btn bt1 btn-primary" id="continuar">Proximo</div>
             </div>
          </div>
       </div>
       <div class="formulario3" style="margin-top:10%;display:none">
-      <div class="progress bar">
-         <div class="progress-bar progress-bar-success bar2" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%"> </div>
-      </div>
-      <div class="row col-md-offset-2">
-         <div class="col-md-5" style="margin-bottom:10%;">
-            <h1>Selecione o módulo</h1>
-            <div>
-               <ul>
-                  <li><input type="radio" name="curso" value="curso"><span> MT Floripa</span></li>
-                  <li><input type="radio" name="curso" value="curso"><span> MT Floripa</span></li>
-                  <li><input type="radio" name="curso" value="curso"><span> MT Floripa</span></li>
-               </ul>
-            </div>
-            <div class="btn bt1 btn-primary" id="pagamento">Cadastrar</div>
+         <div class="progress bar">
+            <div class="progress-bar progress-bar-success bar2" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%"> </div>
          </div>
-      </div>
+         <div class="row col-md-offset-2">
+            <div class="col-md-5" style="margin-bottom:10%;">
+               <h1>Selecione o módulo</h1>
+               <div>
+                  <ul>
+                     <li><input type="radio" name="curso" value="curso"><span> MT Floripa</span></li>
+                     <li><input type="radio" name="curso" value="curso"><span> MT Floripa</span></li>
+                     <li><input type="radio" name="curso" value="curso"><span> MT Floripa</span></li>
+                  </ul>
+               </div>
+               <div class="btn bt1 btn-primary" id="pagamento">Proximo</div>
+            </div>
+         </div>
       </div>
       <div class="formulario4" style="margin-top:10%;display:none">
          <div class="progress bar">
@@ -122,34 +123,35 @@
          <div class="row col-md-offset-2">
             <div class="col-md-5" style="margin-bottom:10%;">
                <h1>Formas de pagamento</h1>
-
-<!-- Aqui vai os botoes de pagamento -->
-<div class="row">
-             <div class="col-md">
-                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_xclick">
-<input type="hidden" name="business" value="gutoca77@gmail.com">
-<input type="hidden" name="lc" value="BR">
-<input type="hidden" name="item_name" value="Curso Mastertech">
-<input type="hidden" name="item_number" value="3">
-<input type="hidden" name="amount" value="5000.00">
-<input type="hidden" name="currency_code" value="BRL">
-<input type="hidden" name="button_subtype" value="services">
-<input type="hidden" name="no_note" value="0">
-<input type="hidden" name="bn" value="PP-BuyNowBF:botao-checkout_horizontal_ap.png:NonHostedGuest">
-<input type="image" src="http://www.uzzestore.com.br/images/bandeiras-paypal.png" border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="4" height="4">
-</form>
-</div>
-<div>
-   <img src="img/logo-pagseguro-jpg.png" height="40px">
-</div>
-</div>
-
-               <div class="btn bt1 btn-primary" id="pagamento">Cadastrar</div>
+               <!-- Aqui vai os botoes de pagamento -->
+               <center>
+                  <div>
+                     <div style="display:inline-block">
+                        <img src="img/300x150.png" height="70px" width="150px">   
+                     </div>
+                     <div style="display:inline-block">
+                        <img src="img/300x150.png" height="70px" width="150px">
+                     </div>
+                  </div>
+               </center>
+               <br><br>
+               <div class="btn bt1 btn-primary" id="next">Proximo</div>
             </div>
-        </div>
+         </div>
       </div>
+      <div class="formulario5" style="margin-top:10%;display:none">
+         <div class="progress bar">
+            <div class="progress-bar progress-bar-success bar2" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%"> </div>
+         </div>
+         <div class="row col-md-offset-4">
+            <div class="col-md-5" style="margin-bottom:10%;">
+                <center>
+               <img id="ok" src="img/check.png">
+              <h1>Concluido</h1></center>
+            </div>
+         </div>
+      </div>
+   </div>
       <footer>
          <div id="container">
             <div class="footer-left">
@@ -210,64 +212,10 @@
       </footer>
       <!-- -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="js/jsform.js"></script>
       <script>
          window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
          
-         $("#cadastro").click(function(){
-              $(".formulario").css({
-         "position":"absolute"});
-             $(".formulario").animate({left: '100%'},"slow");
-             $(".formulario").css({
-         "position":"relative","display":"none"});
-             $(".formulario2").animate({right: '0px'});
-           
-              $(".formulario2").css({
-         "position":"relative",
-         "display":"block",});
-         
-         $(".bar").css({
-         "display":"block",
-         });
-         $(".bar2").animate({width: '25%'},"slow");
-         });
-            $("#continuar").click(function(){
-              $(".formulario2").css({
-         "position":"absolute"});
-             $(".formulario2").animate({left: '100%'},"slow");
-            
-              $(".formulario3").css({"display":"block"});
-             $(".formulario3").animate({right: '0px'});
-           
-              $(".formulario3").css({
-         "position":"relative",
-         "display":"block",});
-         $(".formulario2").css({
-         "position":"relative","display":"none"});
-         $(".bar").css({
-         "display":"block",
-         });
-         $(".bar2").animate({width: '50%'});
-         });
-
-          $("#pagamento").click(function(){
-              $(".formulario3").css({
-         "position":"absolute"});
-          $(".formulario3").animate({left: '100%'});
-            
-         $(".formulario4").css({"display":"block"});
-         $(".formulario4").animate({right: '0px'});
-           
-         $(".formulario4").css({
-         "position":"relative",
-         "display":"block",});
-         $(".formulario3").css({
-         "position":"relative","display":"none"});
-         $(".bar").css({
-         "display":"block",
-         });
-         $(".bar2").animate({width: '75%'},"slow");
-         });
-               
          
       </script>
       <script src="js/bootstrap.min.js"></script>
