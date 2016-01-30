@@ -86,3 +86,34 @@
          width: '75%'
      }, "slow");
  });
+
+ $("#next").click(function() {
+     $(".formulario4").css({
+         "position": "absolute"
+     });
+     $(".formulario4").animate({
+         left: '100%'
+     });
+
+     $(".formulario5").css({
+         "display": "block"
+     });
+     $(".formulario5").animate({
+         right: '0px'
+     });
+
+     $(".formulario5").css({
+         "position": "relative",
+         "display": "block",
+     });
+     $(".formulario4").css({
+         "position": "relative",
+         "display": "none"
+     });
+     $(".bar").css({
+         "display": "block",
+     });
+     $(".bar2").animate({
+         width: '100%'
+     }, "slow");
+ });
