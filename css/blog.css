@@ -86,3 +86,79 @@ header h2{
 }
 
 
+
+
+
+
+
+@media (max-width: 800px) {
+    
+    .navbar-header img{
+        margin-left: 140%;
+        margin-top: -10%;
+    
+    }
+         .navbar-nav{
+            margin-left: 20%;
+        }
+/* acaba */
+
+
+
+header {
+    background: #1a1a1a;
+    height: 55%;
+    width: 100%;
+}
+
+header h1{
+   padding-top: 30%;
+    text-align: center;
+    font-size: 40pt;
+}
+
+header h2{
+    padding-top: 1%;
+    color: white;
+    text-align: center;
+    font-size: 15pt;
+}
+
+
+
+/* acaba */
+
+#container {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    background: 
+}
+ 
+    .posts{
+        height: auto;
+        margin-top: 5%;
+    }
+    
+    .posts .post{
+        margin-bottom: 3%;
+    }
+    
+    
+    .posts .post h2{
+        font-size: 14pt;
+    }
+    
+    .posts .post h3{
+        font-size: 12pt;
+    }
+    
+    .posts .post .img-post{
+        background: #999;
+        height: 30%;
+        clear: both;
+        width: 100%;
+    }
+}
+
+
